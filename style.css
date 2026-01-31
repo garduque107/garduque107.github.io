@@ -76,14 +76,17 @@ blockquote span {
 /* Mobile readability */
 @media (max-width: 600px) {
   body {
-    font-size: 18px;
-  }
-
-  .entry {
-    padding: 2rem 1.6rem;
+    font-size: 16.5px;
   }
 
   .site-header h1 {
-    font-size: 2.1rem;
+    font-size: 1.85rem;
+    line-height: 1.25;
   }
+
+  .entry {
+    padding: 1.9rem 1.4rem;
+  }
+}
+
 }
